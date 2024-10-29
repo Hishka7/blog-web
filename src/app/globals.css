@@ -1,0 +1,144 @@
+.title {
+  font-weight: 900;
+  font-size: 25px;
+}
+.type {
+  color: blue;
+  background-color: rgb(242, 242, 249);
+  width: 45px;
+}
+.image {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.date {
+  color: grey;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.pfp {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.all {
+  border-style: ridge;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+  height: 330px;
+  margin: 10px;
+  padding: 10px;
+}
+.all2 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.all3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  margin-left: 90px;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.searchAndButton {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+}
+input {
+  width: 700px;
+  height: 50px;
+}
+.upi {
+  width: 40px;
+  border-radius: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.title2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.about {
+  font-size: 30px;
+}
+.image2 {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+}
+.home {
+  margin-left: 30px;
+  width: 70px;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+.idk {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+}
+.pic {
+  height: 40px;
+}
+.createPost {
+  margin-left: 30px;
+  width: 70px;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
